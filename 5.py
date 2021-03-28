@@ -3,7 +3,7 @@ cevaplar = [12,8,5]
 soru_no = 0
 puan = 0
 while soru_no < len(sorular):
-    print(sorular[soru_no])
+    print(str(soru_no + 1)+". soru\n"+sorular[soru_no])
     cevap = int(input("Cevap:\n"))
     if cevap == cevaplar[soru_no]:
         puan += 10
